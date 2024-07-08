@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+before running the project initialize a env.local file and run "bun or npm or pnpm or yarn install"
 npm run dev
 # or
 yarn dev
