@@ -72,6 +72,7 @@ export const AccountForm = ({
                 {!!id && (
                     <Button
                         type="button"
+                        variant={"ghost"}
                         disabled={disabled}
                         onClick={handleDelete}
                         className="w-full"
