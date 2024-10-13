@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button";
 import { useNewAccount } from "@/features/accounts/hooks/use-new-account";
 
 export default function Home() {
@@ -9,9 +8,7 @@ export default function Home() {
 
   return (
     <div>
-      <Button onClick={onOpen}>
-        Add an account
-      </Button>
+      still worlking, go to accounts
     </div>
   );
 }
